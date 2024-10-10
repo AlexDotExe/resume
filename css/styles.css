@@ -592,7 +592,9 @@ table {
     flex : none;
     width: 41.6666666667%;
 }
-
+#edit{
+    color: red;
+}
 .xl-6 {
     flex : none;
     width: 50%;

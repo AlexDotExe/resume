@@ -26,8 +26,7 @@
     <link rel="manifest" href="site.webmanifest">
 
 </head>
-
-
+<script src="js/Editable.js"></script>
 <body id="top">
 
     
@@ -64,6 +63,7 @@
 
                 <nav class="s-header__nav">    
                     <ul class="s-header__menu-links">
+                        <li><a id="edit" onclick="toggleEdit()">EDIT OFF</a></li>
                         <li class="current"><a class="smoothscroll" href="#intro">Intro</a></li>
                         <li><a class="smoothscroll" href="#about">About</a></li>
                         <li><a class="smoothscroll" href="#works">Works</a></li>
@@ -647,6 +647,7 @@
 
                 <div class="column xl-6 lg-12">
                     <p class="ss-copyright">
+                        <!-- <span id="edit" onmousedown="toggleEdit()">Edit OFF</span> -->
                         <span>© Copyright Welcome 2023</span> 
                         <span>Design by <a href="https://styleshout.com/">StyleShout</a> Distribution by <a href="https://themewagon.com">ThemeWagon</a></span>
                     </p>
