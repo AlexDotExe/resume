@@ -3413,6 +3413,7 @@ td:last-child {
     letter-spacing: -0.025em;
     margin-top    : 0;
     margin-bottom : var(--vspace-1_25);
+    color: white;
 }
 
 .s-intro__content-btns {
@@ -3437,6 +3438,13 @@ td:last-child {
     right   : 0;
     bottom  : 0;
     left    : 50%;
+}
+.s-intro__content-media2 {
+    position: absolute;
+    top     : 0;
+    right   : 50%;
+    bottom  : 0;
+    left    : 0;
 }
 
 .s-intro__content-media::before {
