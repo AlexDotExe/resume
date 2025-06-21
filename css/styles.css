@@ -2189,12 +2189,15 @@ button.btn--large {
 
 .btn--stroke,
 button.btn--stroke {
-    background : transparent !important;
+    background : transparent ;
     font-weight: 700;
     border     : 2px solid var(--color-btn-stroke);
     color      : var(--color-btn-stroke-text);
 }
 
+#git {
+    background-color: var(--color-1);
+}
 .btn--stroke:focus,
 button.btn--stroke:focus,
 .btn--stroke:hover,
