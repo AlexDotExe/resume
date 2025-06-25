@@ -3449,6 +3449,13 @@ td:last-child {
     bottom  : 0;
     left    : 0;
 }
+.s-intro__content-media2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 
 .s-intro__content-media::before {
     display       : block;
@@ -4013,7 +4020,7 @@ td:last-child {
     transform : translate(-50%, 100%);
     opacity   : 0;
     visibility: hidden;
-    text-align: center;
+    text-align: left;
     position  : absolute;
     top       : 50%;
     left      : 50%;
@@ -4029,6 +4036,11 @@ td:last-child {
     line-height: 1.75;
     color      : var(--color-gray-15);
 }
+.folio-entries .entry__cat2 {
+    font-size  : calc(var(--text-size) * 0.8);
+    line-height: 1.75;
+    color      : var(--color-1-light);
+}
 
 .folio-entries .entry__title {
     font-weight  : 500;
@@ -4043,7 +4055,7 @@ td:last-child {
  */
 .folio-entries .entry:focus .entry__link::before,
 .folio-entries .entry:hover .entry__link::before {
-    opacity   : 1;
+    opacity   : .95;
     visibility: visible;
 }
 
